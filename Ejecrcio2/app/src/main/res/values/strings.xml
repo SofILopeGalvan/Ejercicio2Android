@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Clase persona</string>
+    <string name="nombre">Name </string>
+    <string name="boton1">Show of person</string>
+    <string name="mujer">woman</string>
+    <string name="hombre">man</string>
+    <string name="ejercicio">Perform daily exercise</string>
+    <string name="estatura">height</string>
+    <string name="peso">weight</string>
+    <string name="resultado">Results</string>
+    <string name="botonBorrar">Delete</string>
+</resources>

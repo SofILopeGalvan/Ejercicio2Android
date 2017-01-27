@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:orientation="vertical"
+    tools:context="com.example.sofilop.ejecrcio2.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:text="@string/nombre"
+        android:background="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:inputType="textPersonName"
+        android:id="@+id/txtNombre"
+        android:layout_weight="0.14" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:text="@string/peso"
+        android:background="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:id="@+id/txtpeso"
+        android:layout_weight="0.07" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="@string/estatura"
+        android:background="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:inputType="numberDecimal"
+        android:id="@+id/txtEstatura"
+        android:layout_weight="0.09" />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ejercicio"
+        android:id="@+id/chEjercicio"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="81dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/hombre"
+            android:id="@+id/rdNombre"
+            android:layout_gravity="center_horizontal" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mujer"
+            android:id="@+id/rdMujer"
+            android:layout_gravity="center_horizontal" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton1"
+        android:id="@+id/btnCalcular" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonBorrar"
+        android:id="@+id/btnBorrar" />
+</LinearLayout>

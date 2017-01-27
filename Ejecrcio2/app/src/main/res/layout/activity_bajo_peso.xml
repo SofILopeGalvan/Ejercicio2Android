@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    tools:context="com.example.sofilop.ejecrcio2.BajoPeso">
+
+
+
+
+    <ImageView
+        android:layout_width="325dp"
+        android:layout_height="139dp"
+        android:contentDescription="Person class"
+        android:scaleType="fitXY"
+        android:src="@drawable/bajo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:layout_width="374dp"
+        android:layout_height="242dp"
+        android:id="@+id/txtResultado"
+        android:text="@string/resultado"
+        android:editable="true"
+        android:textColorLink="#1319ce" />
+
+</LinearLayout>
